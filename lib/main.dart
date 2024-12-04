@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomeScreen()
+      home: Onboarding() //MUESTRA LA PAGINA QUE QUIERO MOSTRAR
     );
   }
 }
